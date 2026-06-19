@@ -1,0 +1,12 @@
+[
+    [
+        "nat-091708795e3c40479",
+        "available"
+    ]
+]
+[
+    "46.137.244.96"
+]
+[
+    "638453941476.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/liyana"
+]
