@@ -1,0 +1,4 @@
+Cloudflare nameserver {NS	kiki.ns.cloudflare.com
+NS	maciej.ns.cloudflare.com}
+URL {Github-Awam{https://portfolio-b8y.pages.dev https://imandisplay.com/}
+Github-private{https://private.imandisplay.com}
