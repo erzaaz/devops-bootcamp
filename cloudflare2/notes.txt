@@ -1,0 +1,33 @@
+# Cloudflare Notes
+
+## What is Cloudflare?
+- Cloudflare acts as a reverse proxy between users and my web server.
+- It improves website security, performance, and reliability.
+- It uses edge locations around the world to serve content faster.
+
+## DNS
+- Cloudflare can manage my domain's DNS records.
+- I need to change my domain's nameservers to the two nameservers provided by Cloudflare.
+- DNS records (A, CNAME, etc.) tell visitors where my website is hosted.
+
+## Cloudflare Pages
+- Cloudflare Pages can host static websites for free.
+- It can deploy websites directly from a GitHub repository.
+- A Pages website gets a *.pages.dev URL.
+- I can connect my own custom domain to the Pages site.
+
+## Cloudflare Tunnel
+- Cloudflare Tunnel allows me to expose a local or private server without opening firewall ports.
+- The cloudflared client creates a secure outbound connection to Cloudflare.
+- Visitors access my website through a Cloudflare subdomain or my custom domain.
+
+## EC2 + Nginx
+- My Nginx server runs on an AWS EC2 instance.
+- Nginx serves my website.
+- Cloudflare sits in front of Nginx and forwards requests securely.
+
+## Things I Learned Today
+- How Cloudflare Pages works.
+- How GitHub integrates with Cloudflare Pages.
+- The purpose of Cloudflare nameservers.
+- The difference between Cloudflare DNS, Pages, and Tunnel.
