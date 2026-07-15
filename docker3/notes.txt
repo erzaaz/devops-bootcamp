@@ -1,0 +1,20 @@
+DOCKER 3
+
+1. AWS ECR Image URI:
+
+638453941476.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/liyana
+
+
+2. Docker Networks:
+
+NETWORK ID     NAME      DRIVER    SCOPE
+585f669a467e   arena     bridge    local
+2ed68a24e645   bridge    bridge    local
+f2d1572614bc   host      host      local
+1fb0906cc399   none      null      local
+
+
+3. Docker Volumes:
+
+DRIVER    VOLUME NAME
+local     me
